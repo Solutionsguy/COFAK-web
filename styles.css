@@ -1,0 +1,80 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* Choose a font that aligns with your brand */
+    background-color: #f4f4f4; /* Light background for a clean look */
+    color: #333; /* Primary text color */
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #007bff; /* Primary brand color */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important; /* Ensures text is white */
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333; /* Dark footer for contrast */
+    color: #fff;
+  }
+  
+  /* Main Content Styles */
+  .container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for content areas */
+    border-radius: 5px; /* Optional: Rounded corners for content boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Box-shadow for a subtle depth effect */
+  }
+  
+  /* Headings and Text */
+  h1, h2, h3 {
+    color: #007bff; /* Use brand color for headings for consistency */
+  }
+  
+  p {
+    margin-bottom: 20px; /* Spacing after paragraphs */
+  }
+  
+  /* Buttons and Links */
+  .btn-primary {
+    background-color: #007bff; /* Brand color for primary buttons */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+    border-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff; /* Brand color for links */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker shade for link hover state */
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Add more custom styles as needed */
+  
